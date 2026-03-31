@@ -95,6 +95,7 @@
         padding:20px;
         font-size:30px;
         transition: 0.5s ease;
+        font-size: larger;
 }
 .navbar a:hover{color: green;
 
@@ -131,17 +132,18 @@
 }
 
 body{background-color: rgba(0, 128, 0, 0.203);
+    /* background-color: rgba(0, 0, 0, 0.244);*/
+}
+html{scroll-behavior:smooth;
 
 }
-html{scroll-behavior: smooth;
 
-}
-
-.headings {  color:rgb(19, 18, 18);
-       font-family:Verdana, Geneva, Tahoma, sans-serif;
+.headings {color:rgb(19, 18, 18);
+         font-family:Verdana, Geneva, Tahoma, sans-serif;
         margin:20px;
         text-align: center;
         font-weight:normal;
+        font-size:xx-large;
 }
 
 .heading{color:rgb(144, 234, 119);
@@ -207,6 +209,27 @@ html{scroll-behavior: smooth;
             transform: scale(1.2);
 
 }
+.image4 button{display: block;
+               margin:auto;
+              transform: scale(1.2);
+              margin-top:25px;
+              background-color:rgba(0, 0, 0, 0.208);
+              border-radius: 5px;
+              width:100px;
+              height: 30px;
+             /* background-color: rgba(54, 138, 212, 0.629);*/
+               color:rgb(245, 236, 236);
+               cursor:pointer;
+}
+.image4 button:hover{color: rgba(201, 172, 229, 0.905);
+                  
+
+}
+
+.image4 a{text-decoration: none;
+         
+}
+
 .image4 p{
         /*padding:10px;*/
         color: rgb(12, 11, 11);
