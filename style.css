@@ -510,7 +510,14 @@ footer{display: flex;
                       cursor: pointer;
 
 }
+.services{display: flex;
+          justify-content: center;
 
+}
+.services svg{/*width:50px;*/
+              justify-self: center;  
+              align-self: center;
+}
 
 
 
