@@ -425,7 +425,6 @@ form button{color:green;
 }
 form button:hover{transform:translate(-3px);
 
-
 }
 
 .image button{color:green;
@@ -489,13 +488,11 @@ footer{display: flex;
           
 }
 .components h1,p{display:block;
-                
-                 
                  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                  margin:auto;
                 font-size: 90%;
                  text-align:start; 
-                line-height: 35px;
+                line-height: 25px;
 }
 
 .components img{width:50px;
