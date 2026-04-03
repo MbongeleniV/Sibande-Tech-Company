@@ -6,7 +6,7 @@
     text-align: end;
     /*margin-left:300px;*/
     background-color: rgba(105, 139, 187, 0.622);
-     
+    
 }
 
 /* DESKTOP */
@@ -17,7 +17,7 @@
 }
 
 /* MOBILE */
-@media (max-width: 768px) {
+@media (max-width: 990px) {
 
     /* hide navbar by default */
     .navbar {
@@ -392,13 +392,30 @@ html{scroll-behavior:smooth;
              
 }
 
-form {flex-wrap: wrap;
-     justify-self: center;
-     width:70%  
+
+
+
+
+
+form {
+    /* justify-self: center;*/ /*this wont work because aform is a block element and it will take the full width of its parent container*/
+    background-color: rgba(127, 131, 255, 0.201);
+     margin: 0 auto;
+     width:90% ;
+     padding-top: 40px;
+     border-radius: 10px; 
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
       
 }
-form label{display: flex;
 
+@media (min-width:780px) {
+        form{width: 50%;}
+}
+
+
+form label{display: block;
+          text-align: center;
+          padding-bottom: 10px;
 }
 
 textarea{border:none;
@@ -406,7 +423,10 @@ textarea{border:none;
          background-color: transparent;
          border-bottom: 1px solid;
          width:450px;
-         width:200px
+         width:200px;
+         width: 80%;
+          display: block;
+    margin: 10px auto;
 
 }
 form button{color:green;
@@ -450,8 +470,8 @@ form button:hover{transform:translate(-3px);
 
 }
 
-.myInputs{display:inline-block;
-          padding: 20px;      
+.myInputs{display: block;
+         padding: 0px;    
 }
 
 
@@ -460,8 +480,23 @@ form input{border:none;
             background-color: transparent;
            border-bottom: 2px solid rgb(20, 21, 20);
            background-color: rgba(0, 255, 21, 0.132);
-            width:200px
+            width:400px;
+            width: 50%;
+         display: block;
+        margin: 0px auto;   /* centers inputs */
+             text-align: center;
+             text-transform:uppercase;
+             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            height: 25px;
+             transition: 0.5s;
 }
+form input:focus{text-align: center;
+                  
+                   
+
+                   
+}
+
 
 footer{display: flex;
        justify-content: center;
