@@ -195,6 +195,22 @@ html{scroll-behavior:smooth;
         width: 90%;
           
 }
+
+
+.image4{  opacity: 0;
+    transform: translateY(50px);
+    transition: 1s ease;
+
+
+}
+
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
 .image4:hover{transform: translateX(-5px);
 
 }
@@ -257,8 +273,21 @@ html{scroll-behavior:smooth;
 .occupationImage img{width:200px;
                      border-radius: 10px;
                       margin:10px;
-                /*justify-items: center;*/
+              
 }
+.occupationImage {opacity:0;
+                    /* transform: translateX(50px);*/
+                    
+                    transition: 3s;
+
+}
+.show3{opacity:1;
+      transform: translateY(0px);
+   
+}
+
+
+
 
 .imagecollage {display:flex;
                   margin:auto;
@@ -293,6 +322,20 @@ html{scroll-behavior:smooth;
         border-radius: 40px 0px 40px 0px;
     
 }
+
+.image{opacity: 0;
+    transform: translateY(50px);
+    transition: 1.3s ease;
+
+
+}
+.show2{ opacity: 1;
+    transform: translateY(0);
+
+
+}
+
+
 
 .image img{display: block;
            margin:auto;
@@ -392,11 +435,6 @@ html{scroll-behavior:smooth;
              
 }
 
-
-
-
-
-
 form {
     /* justify-self: center;*/ /*this wont work because aform is a block element and it will take the full width of its parent container*/
     background-color: rgba(127, 131, 255, 0.201);
@@ -406,6 +444,15 @@ form {
      border-radius: 10px; 
      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
       
+}
+form{ opacity:0;
+      transform: translateY(0);  
+       transform: scale(0.8);
+      transition:2.5s;
+}
+.show4{opacity:1;
+       transform: scale(1);
+
 }
 
 @media (min-width:780px) {
@@ -474,7 +521,6 @@ form button:hover{transform:translate(-3px);
          padding: 0px;    
 }
 
-
 form input{border:none;
            outline: none;
             background-color: transparent;
@@ -491,12 +537,8 @@ form input{border:none;
              transition: 0.5s;
 }
 form input:focus{text-align: center;
-                  
-                   
-
-                   
+                                  
 }
-
 
 footer{display: flex;
        justify-content: center;
@@ -553,6 +595,5 @@ footer{display: flex;
               justify-self: center;  
               align-self: center;
 }
-
 
 
