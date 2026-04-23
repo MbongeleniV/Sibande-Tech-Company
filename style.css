@@ -582,7 +582,7 @@ footer{display: flex;
 }
 
 .components img:hover{filter: grayscale(0); 
-                     filter: drop-shadow(1px 2px 3px);
+                     filter: drop-shadow(1px 2px 3px white);
                       transition: 0.5s;
                       cursor: pointer;
 
