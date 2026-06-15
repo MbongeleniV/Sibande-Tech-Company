@@ -273,13 +273,15 @@ html{scroll-behavior:smooth;
       transform: translateY(0px);
    
 }
-ul{padding: 5px;
+/*ul{padding: 5px;
+   
 
-}
+}*/
 
 .image  li{ list-style-type:square;
            color:whitesmoke;
            line-height: 26px;
+           
 
 }
 
