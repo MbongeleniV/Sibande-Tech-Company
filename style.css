@@ -343,7 +343,7 @@ html{scroll-behavior:smooth;
                   gap:50px;
                   justify-content: center;
                 /* background-color: rgba(56, 146, 43, 0.073);*/
-                 background-image:linear-gradient(rgba(99, 194, 16, 0.41), rgba(109, 61, 115, 0.614)),
+                 background-image:linear-gradient(rgba(99, 194, 16, 0.41), rgba(109, 61, 115, 0.447)),
                   url("complaintform.wbp");
                  padding-top: 100px;
                  padding-bottom: 100px;
@@ -371,12 +371,12 @@ html{scroll-behavior:smooth;
 }
 
 .image{opacity: 0;
-    transform: translateY(50px);
-    transition: 1.3s ease;
+       transform: translateY(50px);
+       transition: 1.3s ease;
 
 }
 .show2{ opacity: 1;
-    transform: translateY(0);
+        transform: translateY(0);
 
 }
 
@@ -631,5 +631,54 @@ footer{display: flex;
               justify-self: center;  
               align-self: center;
 }
+
+
+/*code for Types of devices that we fix section*/
+.deviceH2{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           margin-left: 30px;
+
+}
+.deviceTypeParent{display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  gap:10px
+}
+.deviceType h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.deviceType img{width:300px;
+               border:1px solid;
+               padding: 10px;
+               
+}
+/*code for how it works IT support Section*/
+.howH1 {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-top: 100px;
+        color: rgb(16, 193, 16);
+}
+.howParent{display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           gap:20px;
+           /*margin-bottom: 150px;*/
+
+}
+.bookHeading{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             text-align: center;
+             margin-bottom: 150px;
+            color: rgba(16, 193, 16, 0.642);
+            text-decoration:overline;
+}
+
+
+.howCard h2{ color: rgb(16, 193, 16);
+
+}
+.howCard{width: 200px;
+         border: 1px solid;
+         padding:50px
+}
+
 
 
